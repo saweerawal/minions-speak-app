@@ -12,8 +12,8 @@ function contructUrl(text){
 function tanslator(event){
     var text = inputText.value;
     var url = contructUrl(text);
-    outputText.innerText = fetch(url).then(response => response.json).then((json) => {
-        return json.contents.translated;
+    fetch(url).then((response) => response.json).then((json) => {
+        outputText.innerText = json.contents.translated;
     })
 
 }
