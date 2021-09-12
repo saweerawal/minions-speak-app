@@ -4,7 +4,7 @@ var outputText = document.querySelector("#output");
 
 
 function contructUrl(text){
-    var server = "https://api.funtranslations.com/translate/minion.json" + "?text='" + text + "'";
+    var server = "https://api.funtranslations.com/translate/minion.json" + "?text=" + text ;
     return server;
 
 }
