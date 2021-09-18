@@ -43,7 +43,9 @@ nav{
 footer{
     width: 100%;
     background-color: var(--primary-color--);  
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
+    word-spacing: 0.2rem;
+    line-height: 1.5rem;
     max-height: 10%;
     height: 20%;
 }
